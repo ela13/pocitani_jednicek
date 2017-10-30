@@ -1,5 +1,6 @@
 def pocet_jednicek(cislo):
     pocet = 0
+    cislo = abs(cislo)
     while cislo > 0:
         zbytek = cislo % 10
         if zbytek == 1:
